@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo React</title>
+<style>
+    .show{
+        display: block;
+    }
+    .hide{
+        display: none;
+    }
+    .text-right{
+        text-align: right;
+    }
+    ul{
+        padding: 0;
+    }
+    li{
+        list-style-type: none;
+        width: 25%;
+        margin-bottom: 15px;
+    }
+    .row-item{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .row-item:nth-child(2){
+        width: 50%;
+    }
+    .row-item:last-child{
+        cursor: pointer;
+    }
+    .todo{
+        width:600px;
+        margin:0 auto;
+    }
+    h1{
+        text-align: center;
+    }
+    .input-todo input,.input-todo div{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .input-todo input{
+        width:94%;
+    }
+    .input-todo div{
+        width:5%;
+        cursor: pointer;
+    }
+    .align-inline{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .footer-action .actions{
+        margin-left: 50px;
+    }
+    .footer-action .actions div{
+        margin-right:20px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .footer-action .actions div.selected{
+        border: 1px solid grey;
+        border-radius: 2px;
+    }
+    .count{
+        padding:5px;
+    }
+    .select-all{
+        font-weight: bold;
+    }
+    .clear{
+        text-decoration: underline;
+        cursor: pointer;
+        float: right;
+    }
+</style>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
